@@ -35,4 +35,4 @@ Debug.succ("All good now")
 
 ## Preview
 
-![Preview](images/demo.png)
+![Preview](images/image.png)

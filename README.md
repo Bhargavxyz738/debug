@@ -6,6 +6,7 @@ Includes timestamped log levels (INFO, DEBUG, WARNING, ERROR, SUCCESS) for easy 
 ## Features
 - Colored log levels (green, cyan, yellow, red, magenta)
 - 12-hour timestamp format
+- File and line number shown in readable format (e.g. `[in main.py at line 10]`)
 - Simple static methods for each log type
 - Test function to preview all colors
 
@@ -14,10 +15,16 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/Bhargavxyz738/debug.git
+````
+
+And just import it using:
+
+```python
+from debug import Debug
 ```
-And just import it using `from debug import Debug`
 
 ## Usage
+
 ```python
 from debug import Debug
 
@@ -26,16 +33,16 @@ Debug.debug("Loop iteration 1")
 Debug.warn("This might be risky")
 Debug.err("Something went wrong!")
 Debug.succ("All good now")
-````
+```
 
 ### Output Example
 
 ```
-[08:20:01 PM INFO] Program started
-[08:20:01 PM DEBUG] Loop iteration 1
-[08:20:01 PM WARNING] This might be risky
-[08:20:01 PM ERROR] Something went wrong!
-[08:20:01 PM SUCCESS] All good now
+[08:20:01 PM INFO]    [in test_debug.py at line 5] Program started
+[08:20:01 PM DEBUG]   [in test_debug.py at line 6] Loop iteration 1
+[08:20:01 PM WARNING] [in test_debug.py at line 7] This might be risky
+[08:20:01 PM ERROR]   [in test_debug.py at line 8] Something went wrong!
+[08:20:01 PM SUCCESS] [in test_debug.py at line 9] All good now
 ```
 
 ## Preview

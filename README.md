@@ -22,7 +22,9 @@ And just import it using:
 ```python
 from debug import Debug
 ```
+OR
 
+Just download it by runnning this on terminal `pip install debugger-log`
 ## Usage
 
 ```python

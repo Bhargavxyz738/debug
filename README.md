@@ -14,7 +14,7 @@ Includes timestamped log levels (INFO, DEBUG, WARNING, ERROR, SUCCESS) for easy 
 * File and line number shown in readable format (e.g., `[in main.py at line 10]`)
 * Simple static methods for each log type
 * Test function to preview all colors
-* **Visual hierarchy**: the log level is bright/colored, while the rest of the message (timestamp, file info) is dimmed for easier scanning.
+* **Visual hierarchy**: the log level is colored and the print statement is bright, while the rest of the message (timestamp, file info) is dimmed for easier scanning.
 
 ---
 

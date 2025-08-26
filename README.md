@@ -10,7 +10,12 @@ Includes timestamped log levels (INFO, DEBUG, WARNING, ERROR, SUCCESS) for easy 
 - Test function to preview all colors
 
 ## Installation
-Just download the repo and everything is setup.
+Clone the repository:
+
+```bash
+git clone https://github.com/Bhargavxyz738/debug.git
+```
+And just import it using `from debug import Debug`
 
 ## Usage
 ```python
